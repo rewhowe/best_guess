@@ -100,8 +100,7 @@ sub score_candidates {
 sub rank_guesses {
   my $self = shift;
 
-  my @sorted_candidates = sort { $self->{candidates}->{$a} <=> $self->{candidates}->{$b} } keys %{$self->{candidates}};
-  @sorted_candidates = reverse @sorted_candidates;
+  my @sorted_candidates = sort { $self->{candidates}->{$b} <=> $self->{candidates}->{$a} } keys %{$self->{candidates}};
 
   print "Ranking:\n";
   for (0 .. RANKINGS_TO_SHOW) {
