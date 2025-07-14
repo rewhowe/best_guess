@@ -126,3 +126,13 @@ Best Guesses:
 5. アズマオウ: 113
 6. ワカシャモ: 78
 ```
+
+## Testing
+
+```shell
+$ prove bestGuess.t
+bestGuess.t .. ok
+All tests successful.
+Files=1, Tests=9,  1 wallclock secs ( 0.02 usr  0.02 sys +  0.08 cusr  0.05 csys =  0.17 CPU)
+Result: PASS
+```
