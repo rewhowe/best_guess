@@ -4,7 +4,7 @@ use strict;
 use warnings;
 no warnings 'utf8'; ## no critic (ProhibitNoWarnings)
 use utf8;
-# List::MoreUtils qw(uniq);
+# List::MoreUtils qw(uniq); # unused, but left for reference
 use English qw(-no_match_vars);
 
 use constant {
